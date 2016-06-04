@@ -1,0 +1,12 @@
+<project name="project1" default="test">
+		<target name="init">
+		<echo>Running Target one</echo>
+		
+		</target>
+		
+		<target name="test" depends="init">
+		<echo>Running Target init</echo>
+		
+		</target>
+				
+</project>

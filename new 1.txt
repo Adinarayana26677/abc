@@ -1,0 +1,11 @@
+
+<project name="project1" default="init">
+
+<target name="init">
+  
+     <mkdir dir="build/classes"/>
+	 <mkdir dir="build/jar"/>
+	 <mkdir dir="build/web"/>
+	 
+  </target>
+  </project>

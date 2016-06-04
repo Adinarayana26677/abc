@@ -1,0 +1,50 @@
+
+<project name="project1" default="excl">
+
+
+
+<!--target name="init">
+  
+     <mkdir dir="build/classes"/>
+	 <mkdir dir="build/jar"/>
+	 <mkdir dir="build/web"/>
+	 
+  </target>
+  
+  <target name="clean">
+
+   <delete dir="build/classes"/>
+   <delete dir="build/jar"/>
+   <delete dir="build/web"/>
+  
+  </target>
+  
+  <target name="copywebfiles">
+	  
+	  <copy todir="build/web">
+	    <fileset dir="web">
+		
+		</fileset>
+		</copy>
+	  
+	  </target>
+	  <target name="compile">
+	
+	<javac srcdir="src"
+	      destdir="build/classes"/>
+		  
+	</target-->
+	
+	
+
+<target name="excl">
+
+       <copy todir="test">
+	        <fileset dir="web">
+			<include name="b.txt"/>
+		</fileset>
+	  </copy>
+    </target>
+ </project>
+	
+  
